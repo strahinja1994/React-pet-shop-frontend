@@ -1,0 +1,48 @@
+header{
+    background-color: $color4;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title{
+    color: $color2;
+    padding:10px 30px 10px;
+    font-family: updockRegular;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.header__icons-cart{
+    font-size: 30px;
+    padding: 20px;
+    color: $color3;
+    cursor: pointer;
+}
+
+.header__icons-icon{
+    font-size: 30px;
+    padding: 20px;
+    color: $color3;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and(max-width:500px) {
+
+    .header__title{
+        padding-left: 15px;
+    }
+
+    .header__icons{
+        display: flex;
+    }
+
+    .header__icons-icon{
+        display: block;
+    }
+
+    .header__icons-cart{
+        padding:20px 0 20px 20px;
+    }
+}
