@@ -7,6 +7,7 @@ import Dogs from "./pages/Dogs";
 import Cats from "./pages/Cats";
 import Birds from "./pages/Birds";
 import Rodents from "./pages/Rodents";
+import Footer from '../components/Footer';
 
 export default function App() {
 
@@ -54,6 +55,7 @@ export default function App() {
                     />
                 </Routes>
             </Router>
+            <Footer />
         </div>
     )
 }
